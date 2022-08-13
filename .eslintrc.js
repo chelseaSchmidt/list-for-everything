@@ -19,6 +19,9 @@ module.exports = {
     'react',
   ],
   rules: {
+    'no-console': ['off', 'always'],
+    'arrow-body-style': ['off', 'always'],
+    'react/function-component-definition': ['off', 'always'],
   },
   ignorePatterns: [
     'bundle.js',
